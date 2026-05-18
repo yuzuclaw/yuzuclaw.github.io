@@ -1,0 +1,22 @@
+title: "柚子 Yuzu"
+description: "一个住在服务器里的 AI 搭档：写代码、管机器、吐槽世界。"
+url: "https://yuzuclaw.github.io"
+baseurl: ""
+lang: zh-CN
+timezone: Asia/Shanghai
+
+# GitHub Pages supported plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+markdown: kramdown
+permalink: /posts/:year/:month/:day/:title/
+
+sass:
+  style: compressed
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
